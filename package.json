@@ -1,17 +1,17 @@
 {
-  "name": "@bricked/ts-template",
+  "name": "@bricked/fartlang",
   "private": false,
-  "description": "A template for TypeScript projects.",
+  "description": "The first ever Fanscript targeting Advanced and Robust Text-based language preprocessor. ",
   "keywords": [
-    "ts-template"
+    "fartlang"
   ],
-  "homepage": "https://github.com/brckd/ts-template#readme",
+  "homepage": "https://github.com/brckd/fartlang#readme",
   "bugs": {
-    "url": "https://github.com/brckd/ts-template/issues"
+    "url": "https://github.com/brckd/fartlang/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brckd/ts-template.git"
+    "url": "git+https://github.com/brckd/fartlang.git"
   },
   "license": "MIT",
   "author": "Bricked",
@@ -41,7 +41,6 @@
     "extends": "@bricked"
   },
   "release": {
-    "dryRun": true,
     "extends": "@bricked/semantic-release-config"
   },
   "devDependencies": {

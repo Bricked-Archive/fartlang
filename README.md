@@ -1,49 +1,33 @@
-# @bricked/ts-template
+# FARTlang 💨
 
-[![license](https://custom-icon-badges.demolab.com/github/license/brckd/ts-template?logo=law)](LICENSE.md)
+[![license](https://custom-icon-badges.demolab.com/github/license/brckd/fartlang?logo=law)](LICENSE.md)
 [![semantic-release: angular](https://img.shields.io/badge/semantic--release-angular-e10079?logo=semantic-release)](https://github.com/semantic-release/semantic-release)
-[![version](https://img.shields.io/npm/v/@bricked/ts-template?color=crimson&logo=npm)](https://www.npmjs.com/package/@bricked/ts-template)
+[![version](https://img.shields.io/npm/v/@bricked/fartlang?color=crimson&logo=npm)](https://www.npmjs.com/package/@bricked/fartlang)
 
-A template for TypeScript projects.
+The first ever Fanscript targeting Advanced and Robust Text-based language preprocessor. 
 
-## ToDo
-
-- [ ] [Create](https://github.com/brckd/ts-template/generate) a new repository from this template
-- [ ] Find & replace `ts-template` with the name of the new repository
-- [ ] Find & replace the description with a proper one
-- [ ] Optionally make the [installation guide](#installation) install as `devDependency`
-
-```sh
-npm install --save-dev @bricked/ts-template
-yarn add --dev @bricked/ts-template
-pnpm add --dev @bricked/ts-template
-```
-
-- [ ] Add `NPM_TOKEN` as a [new repository secret](https://github.com/brckd/ts-template/settings/secrets/actions/new)
-- [ ] Remove `"dryRun": true` from the [`package.json`](./package.json)
-- [ ] Remove this section
 
 ## Installation
 
 [Node.js](https://nodejs.org/) 16.14.0 or newer is required.
 
 ```sh
-npm install @bricked/ts-template
-yarn add @bricked/ts-template
-pnpm add @bricked/ts-template
+npm install @bricked/fartlang
+yarn add @bricked/fartlang
+pnpm add @bricked/fartlang
 ```
 
 ## Usage
 
-`ts-template` can be used as a template for TypeScript projects.
+`fartlang` can be used as the first ever Fanscript targeting Advanced and Robust Text-based language preprocessor. 
 
 ## Building
 
 ### Building Publicly
 
 Pulls to the repository will automatically be built with [semantic-release](https://github.com/semantic-release/npm).
-The built package can be found on [npm](https://www.npmjs.com/package/@bricked/ts-template?activeTab=code) or in the
-[latest github release](https://github.com/brckd/ts-template/releases/latest).
+The built package can be found on [npm](https://www.npmjs.com/package/@bricked/fartlang?activeTab=code) or in the
+[latest github release](https://github.com/brckd/fartlang/releases/latest).
 
 ### Building Locally
 
