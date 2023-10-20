@@ -1,0 +1,9 @@
+# modules
+node_modules/
+
+# build
+dist/
+tsconfig.tsbuildinfo
+
+# variables
+.npmrc

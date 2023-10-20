@@ -1,0 +1,71 @@
+{
+  "name": "@bricked/ts-template",
+  "private": false,
+  "description": "A template for TypeScript projects.",
+  "keywords": [
+    "ts-template"
+  ],
+  "homepage": "https://github.com/brckd/ts-template#readme",
+  "bugs": {
+    "url": "https://github.com/brckd/ts-template/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brckd/ts-template.git"
+  },
+  "license": "MIT",
+  "author": "Bricked",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npx tsup",
+    "format": "npx sort-package-json && npx prettier --write . && npx eslint --fix --no-error-on-unmatched-pattern .",
+    "prepare": "npx husky install",
+    "watch": "npx tsup --watch"
+  },
+  "commitlint": {
+    "extends": "@commitlint/config-conventional"
+  },
+  "lint-staged": {
+    "!(*.ts|package.json)": "npx prettier --ignore-unknown --write",
+    "*.ts": [
+      "npx prettier --write",
+      "npx eslint --fix"
+    ],
+    "package.json": [
+      "npx sort-package-json",
+      "npx prettier --write"
+    ]
+  },
+  "prettier": "@bricked/prettier-config",
+  "eslintConfig": {
+    "extends": "@bricked"
+  },
+  "release": {
+    "dryRun": true,
+    "extends": "@bricked/semantic-release-config"
+  },
+  "devDependencies": {
+    "@bricked/eslint-config": "^1.0.0",
+    "@bricked/prettier-config": "^1.0.1",
+    "@bricked/semantic-release-config": "^1.1.0",
+    "@bricked/ts-config": "^1.2.3",
+    "@bricked/tsup-config": "^1.0.0",
+    "@commitlint/config-conventional": "^17.6.5",
+    "@typescript-eslint/eslint-plugin": "^6.5.0",
+    "commitlint": "^17.6.6",
+    "eslint": "^8.48.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^16.0.2",
+    "eslint-plugin-promise": "^6.1.1",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.2",
+    "prettier": "^2.8.8",
+    "sort-package-json": "^2.4.1",
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
