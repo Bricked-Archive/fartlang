@@ -6,6 +6,49 @@
 
 The first ever Fanscript targeting Advanced and Robust Text-based language preprocessor. 
 
+## Usage
+
+FARTscript will be written in different flavours to support FARTscripters from any kind of programming background. It's definitely not because I'm too lazy to make up my own syntax or decide on an existing one.
+
+### FARTthon
+```py
+$you = player(0.1) # place down player block
+
+def grass player(self, speed): # define player block
+    position, rotation = get_position(self)
+    position += vector(0, 0, speed)
+    set_position(self, position)
+```
+
+### JavaFART
+```js
+$you = player(0.1) // place down player block
+
+// define player block
+function grass player(speed) {
+    [position, rotation] = getPosition(this)
+    position += vector(0, 0, speed)
+    setPosition(this, position)
+}
+```
+
+*insert syntax of other popular programming languages*
+
+### FARTy
+(my favorite)
+
+```lisp
+set $you (player 0.1) ; place down player block
+
+grass player (self) (speed): ; define player block
+    set position (get_position self)
+    increase position (vector 0 0 (get speed))
+    set_position self position
+
+def increase (var) (increment): ; define macro or something
+    set var (add (get var) increment)
+```
+
 
 ## Installation
 
@@ -16,10 +59,6 @@ npm install @bricked/fartlang
 yarn add @bricked/fartlang
 pnpm add @bricked/fartlang
 ```
-
-## Usage
-
-`fartlang` can be used as the first ever Fanscript targeting Advanced and Robust Text-based language preprocessor. 
 
 ## Building
 
