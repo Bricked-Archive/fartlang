@@ -49,7 +49,7 @@
     "@bricked/semantic-release-config": "^1.1.0",
     "@bricked/ts-config": "^1.2.3",
     "@bricked/tsup-config": "^1.0.0",
-    "@commitlint/config-conventional": "^17.6.5",
+    "@commitlint/config-conventional": "^19.1.0",
     "@typescript-eslint/eslint-plugin": "^6.5.0",
     "commitlint": "^17.6.6",
     "eslint": "^8.48.0",
