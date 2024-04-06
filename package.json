@@ -59,7 +59,7 @@
     "eslint-plugin-promise": "^6.1.1",
     "husky": "^8.0.3",
     "lint-staged": "^13.2.2",
-    "prettier": "^2.8.8",
+    "prettier": "^3.2.5",
     "sort-package-json": "^2.4.1",
     "tsup": "^7.2.0",
     "typescript": "^5.2.2"
