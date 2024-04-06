@@ -4,7 +4,10 @@
 [![semantic-release: angular](https://img.shields.io/badge/semantic--release-angular-e10079?logo=semantic-release)](https://github.com/semantic-release/semantic-release)
 [![version](https://img.shields.io/npm/v/@bricked/fartlang?color=crimson&logo=npm)](https://www.npmjs.com/package/@bricked/fartlang)
 
-The first ever Fanscript targeting Advanced and Robust Text-based language preprocessor. 
+The first ever Fanscript targeting Advanced and Robust Text-based language preprocessor.
+
+> [!Warning]
+> This project has been archived, as it was meant as a joke and I'll try to make it in Rust later.
 
 ## Usage
 
